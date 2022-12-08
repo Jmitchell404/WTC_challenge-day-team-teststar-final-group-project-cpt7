@@ -1,0 +1,7 @@
+08-12-2022 14:06:47.639 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/naid/NAID/student_work/QualityAssurance/cpt7-qa-wesharetestplan/.gauge/screenshots
+08-12-2022 14:06:47.643 [Gauge] [DEBUG] Plugin dotnet is already installed.
+08-12-2022 14:06:47.644 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-12-2022 14:06:47.645 [Gauge] [DEBUG] Parsing started.
+08-12-2022 14:06:47.646 [Gauge] [DEBUG] Started concepts parsing.
+08-12-2022 14:06:47.725 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-12-2022 14:06:47.726 [Gauge] [ERROR] Specs directory specs does not exists.
