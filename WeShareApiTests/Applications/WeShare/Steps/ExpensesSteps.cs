@@ -11,6 +11,8 @@ using Applications.PetStore.Steps;
 namespace Applications.WeShare.Steps {
     public class ExpensesSteps {
         private ExpenseDTO _expense;
+
+        private List<ExpenseDTO> _expensesList;
         private readonly ExpensesApi _expenseApi = new ExpensesApi(StepsHelper.BasePath);
 
         [Step("Find expense with id <1>")]
@@ -25,6 +27,19 @@ namespace Applications.WeShare.Steps {
         {
             _expense.Should().NotBeNull();
             _expense.ExpenseId.Should().Be(1);
+        }
+
+        [Step("Find all expenses")]
+        public void FindAllExpenses()
+        {
+            _expensesList = _expenseApi.FindAllExpenses();
+
+        }
+
+        [Step("Verify expenses have been found")]
+        public void VerifyExpensesHaveBeenFound()
+        {
+            _expensesList.Should().NotBeNull();
         }
     }
 }

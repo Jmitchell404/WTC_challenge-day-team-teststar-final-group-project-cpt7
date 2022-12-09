@@ -96,7 +96,7 @@ namespace Applications.WeShare.Swagger.Model
         /// <summary>
         /// Gets or Sets Paid
         /// </summary>
-        [DataMember(Name = "paid", IsRequired = true, EmitDefaultValue = true)]
+        [DataMember(Name = "isPaid", IsRequired = true, EmitDefaultValue = true)]
         public bool Paid { get; set; }
 
         /// <summary>
