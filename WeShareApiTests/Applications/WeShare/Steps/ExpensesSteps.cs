@@ -18,7 +18,7 @@ namespace Applications.WeShare.Steps {
         [Step("Create new expense for personId <id> of description <desc>")]
         public void CreateNewExpense(int id, string desc)
         {
-            _expense = _expenseApi.CreateExpense(new NewExpenseDTO(id, "09/12/2022", desc, 100));
+            _expense = _expenseApi.CreateExpense(new NewExpenseDTO(id, "09/12/2022", desc, 400));
 
         }
 
