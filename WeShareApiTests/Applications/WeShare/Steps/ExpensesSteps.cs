@@ -6,7 +6,7 @@ using Applications.WeShare.Swagger.Api;
 using Applications.WeShare.Swagger.Model;
 using Applications.WeShare.Swagger.Client;
 using System.Threading.Tasks;
-using Applications.PetStore.Steps;
+using Applications.WeShare.Steps;
 
 namespace Applications.WeShare.Steps {
     public class ExpensesSteps {
